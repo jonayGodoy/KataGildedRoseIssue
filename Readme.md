@@ -31,13 +31,13 @@ We have recently signed a supplier of conjured items. This requires an update to
 
 - "Conjured" items degrade in Quality twice as fast as normal items
 
-Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the main.Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
+Feel free to make any changes to the UpdateQuality method and add any new code as long as everything still works correctly. However, do not alter the main.java.Item class or Items property as those belong to the goblin in the corner who will insta-rage and one-shot you as he doesn't believe in shared code ownership (you can make the UpdateQuality method and Items property static if you like, we'll cover for you).
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
 Important files
 
-    Tests file: test.GildedRoseTest
-    Code: main.GildedRose (and main.Item)
+    Tests file: test.java.GildedRoseTest
+    Code: main.java.GildedRose (and main.java.Item)
 
 [Sample of test solution](https://raw.githubusercontent.com/luisrovirosa/GildedRose-Refactoring-Kata/java-resolution/Java/com/gildedrose/GildedRoseTest.java)
 
@@ -76,9 +76,9 @@ Recientemente hemos firmado un proveedor de artículos conjurados. Esto requiere
 
 Solo por aclaración, un artículo nunca puede tener un aumento de calidad superior a 50, sin embargo, "Sulfuras" es un elemento legendario y, como tal, su calidad es 80 y nunca cambia.
 
-Siéntase libre de realizar cualquier cambio en el método UpdateQuality y agregar cualquier código nuevo, siempre y cuando todo funcione correctamente. Sin embargo, no modifique la propiedad main.Item o Items, ni cree nuevas clases.
+Siéntase libre de realizar cualquier cambio en el método UpdateQuality y agregar cualquier código nuevo, siempre y cuando todo funcione correctamente. Sin embargo, no modifique la propiedad main.java.Item o Items, ni cree nuevas clases.
 Important files
 
-    Tests file: test.GildedRoseTest
-    Code: main.GildedRose (and main.Item)
+    Tests file: test.java.GildedRoseTest
+    Code: main.java.GildedRose (and main.java.Item)
 [Posible solucion a los test](https://raw.githubusercontent.com/luisrovirosa/GildedRose-Refactoring-Kata/java-resolution/Java/com/gildedrose/GildedRoseTest.java)

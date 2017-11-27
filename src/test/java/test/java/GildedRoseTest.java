@@ -1,9 +1,9 @@
-package test;
+package test.java;
 
 import static org.junit.Assert.*;
 
-import main.GildedRose;
-import main.Item;
+import main.java.GildedRose;
+import main.java.Item;
 import org.junit.Test;
 
 public class GildedRoseTest {
